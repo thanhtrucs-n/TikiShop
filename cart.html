@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng Tiki</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  
+</head>
+<body>
+    <header>
+        <div class="home-page">
+            <div class="banner__main">
+                <a href="#">
+                    <div class="top-bar-wrap">
+                    </div>
+                </a>
+            </div>  
+            
+            <div class="group-navigation">
+                <div class="container">
+                    <div class="top-header">
+
+                        <div class="top-left">
+                            <div class="top-left__logo">
+                                <a href="index.html">
+                                <img class="logo__tikinow" src="img/54c02d2475983f93a024c0cd13f238e4.png" alt="logo tiki now">
+                                </a>
+                            </div>
+            
+                            <form action="" class="top-left__form">
+                                <div class="group-form">
+                                    <input type="text" class="group-form__search" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ...">
+                                    <button class="group-form__button"><i class="fa fa-search" aria-hidden="true"></i>Tìm kiếm</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="top-right">
+                            <div class="userstyle__root">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <a href="#" class="userstyle__root--a">Theo dõi đơn hàng</a>
+                            </div>
+    
+                            <div class="userstyle__root">
+                                <i class="fa fa-bell" aria-hidden="true"></i>
+                                <a href="#" class="userstyle__root--a">Thông báo của tôi</a>
+                            </div>
+    
+                            <div class="userstyle__root user__active">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <div class="box">
+                                    <a class="box__user" href="#">Chào ngô hồng chân</a>
+                                    <p>Tài khoản</p>
+                                </div>
+
+                            <div class="userstyle__userdropdown">
+                                <div class="arrow-up"></div>
+                                <ul class="toggle__box">
+                                    <li><a href="#">Đơn hàng của tôi</a></li>
+                                    <li><a href="#">Thông báo của tôi</a></li>
+                                    <li><a href="#">Tài khoản của tôi</a></li>
+                                    <li><a href="#">Nhận xét sản phẩm của tôi</a></li>
+                                    <li><img src="img/icontikinow.png" alt="icon tikinow"><a href="#">TikiNOW <p>Đăng kí sử dụng ngay</p></a></li>
+                                    <li><img src="img/coupon_code.svg" alt="icon coupon code"><a href="#">Mã giảm giá <p>bạn đang có <strong>0</strong> mã giảm giá</p> </a></li>
+                                    <li><img src="img/tikixu.svg" alt="icon tikixu"><a href="#">Thông tin Tiki Xu <p>bạn đang có <strong>xu</strong> tiki xu</p> </a></li>
+                                    <li><img src="img/bookcare.svg" alt="icon bookcare"><a href="#">Thông tin BookCare <p>Bạn đang có <strong>0</strong> bookcare</p> </a></li>
+                                    <li><a href="#">Đổi trả dễ dàng</a></li>
+                                    <li><a href="#">Thoát tài khoản</a></li>
+                                </ul>
+                            </div>
+                            </div>
+    
+                            <div class="top-right__cart">
+                                <i><a href="#" class="fa fa-shopping-cart" aria-hidden="true">
+                                <h4>Giỏ Hàng</h4>
+                                <span class="number__cart">1</span></a></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    <main class="cart-container">
+        <h2>Giỏ Hàng Của Bạn</h2>
+        <div class="cart-item">
+            <img src="./img/pro10.jpg" alt="Sản phẩm">
+            <div class="item-details">
+                <h3>Sản phẩm 1</h3>
+                <p>Giá: 100,000₫</p>
+                <div class="quantity">
+                    <button>-</button>
+                    <input type="number" value="1" min="1">
+                    <button>+</button>
+                </div>
+            </div>
+            <button class="remove-btn">Xóa</button>
+        </div>
+        <div class="cart-item">
+            <img src="./img/pro2.jpg" alt="Sản phẩm">
+            <div class="item-details">
+                <h3>Sản phẩm 2</h3>
+                <p>Giá: 200,000₫</p>
+                <div class="quantity">
+                    <button>-</button>
+                    <input type="number" value="1" min="1">
+                    <button>+</button>
+                </div>
+            </div>
+            <button class="remove-btn">Xóa</button>
+        </div>
+        <div class="total">
+            <h3>Tổng cộng: 300,000₫</h3>
+            <a href="detail.html"><button class="checkout-btn">Thanh toán</button></a>
+            
+        </div>
+    </main>
+</body>
+</html>

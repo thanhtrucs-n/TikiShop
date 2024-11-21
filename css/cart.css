@@ -1,0 +1,121 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li, a, button, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #189eff;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.header .logo h1 {
+    font-size: 24px;
+}
+
+.header .menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.header .menu ul li {
+    margin: 0 10px;
+}
+
+.header .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.cart-icon a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.cart-container {
+    padding: 20px;
+}
+
+.cart-container h2 {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.item-details p {
+    margin-bottom: 10px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity button {
+    background: #189eff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quantity input {
+    width: 50px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.remove-btn {
+    background: #ff4d4f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.total {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.checkout-btn {
+    background: #189eff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
